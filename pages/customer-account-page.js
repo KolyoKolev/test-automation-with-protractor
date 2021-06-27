@@ -10,10 +10,6 @@ var CustomerAccountPage = function () {
   this.clickOnLoginBtn = function () {
     element(by.buttonText('Login')).click();
   };
-
-  this.getPersonalAccoiuntUsername = function () {
-    element(by.css('span:nth-child(1)'));
-  };
 };
 
 module.exports = CustomerAccountPage;
